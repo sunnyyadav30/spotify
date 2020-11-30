@@ -1,0 +1,21 @@
+.login{
+    // background-color: #000;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #000;
+    svg{
+        width: 50%;
+        filter: invert(1);
+    }
+    a{
+        padding: 20px;
+        border-radius: 99px;
+        background-color: #1db954;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}
